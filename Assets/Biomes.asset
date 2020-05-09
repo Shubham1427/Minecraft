@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33968d2314c38a47b129b5a2c9b8dea, type: 3}
+  m_Name: Biomes
+  m_EditorClassIdentifier: 
+  biomes:
+  - biomeName: Mountains
+    terrainHeight: 82
+    solidGroundHeight: 40
+    minTreeHeight: 6
+    maxTreeHeight: 10
+    terrainScale: 40
+    minNoiseForTerrain: 0
+    maxNoiseForTerrain: 1
+    TreePlacementScale: 0.786
+    TreePlacementThreshold: 0.6
+  - biomeName: Plains
+    terrainHeight: 60
+    solidGroundHeight: 40
+    minTreeHeight: 6
+    maxTreeHeight: 10
+    terrainScale: 80
+    minNoiseForTerrain: 0
+    maxNoiseForTerrain: 0
+    TreePlacementScale: 0.25
+    TreePlacementThreshold: 0.6
